@@ -1,0 +1,134 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    color: #201b2d;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+}
+
+p {
+    line-height: 1.7em;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+header {
+    background: rgb(77,190,254);
+    background: linear-gradient(90deg, rgba(77,190,254,1) 0%, rgba(64,163,231,1) 48%, rgba(55,143,217,1) 100%);
+    padding-top: 65px;
+    padding-bottom: 150px;
+    color: #fff;
+}
+
+.wrapper {
+	display: flex;
+    justify-content: space-between;
+}
+
+.offer {
+    margin-top: 155px;
+    width: 570px;
+}
+
+.title {
+    font-size: 37px;
+}
+
+.title span {
+    font-size: 59px;
+}
+
+.intro {
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 44px;
+    width: 400px;
+}
+
+.btn {
+    background: #ffd429;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    display: block;
+    width: 220px;
+    padding: 20px 0;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+    background: #f4cb28;
+}
+
+.desktop {
+    margin-top: 56px;
+    
+}
+.learn{
+    padding-top: 110px;
+    padding-bottom: 120px;
+}
+
+.section-title {
+    font-size: 30px;
+    text-align: center;
+}
+
+.future {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.free-time {
+    width: 300px;
+    background: url('../Домашка/img/icon1.jpg') no-repeat;
+    background-position: center;
+    padding-left: 114px;
+}
+
+.future-title {
+    font-size: 19px;
+    text-align: center;
+}
+
+.future-text {
+    margin-top: 10px;
+}
+
+.future-travel {
+    width: 300px;
+    background: url('../Домашка/img/icon2.jpg') no-repeat;
+    background-position: center;
+    padding-left: 114px;
+}
+
+.future-wealth {
+    width: 270px;
+    background: url('../Домашка/img/icon3.jpg') no-repeat;
+    background-position: center;
+    padding-left: 114px;
+}
+
+
+   /* background: rgb(77,190,254);
+    background: linear-gradient(90deg, rgba(77,190,254,1) 0%, rgba(55,143,217,1) 100%);
+    height: 100px;
+}    
+/* 1171, 823
